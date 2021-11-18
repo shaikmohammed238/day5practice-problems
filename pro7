@@ -1,0 +1,18 @@
+#!/bin/bash -x
+
+read -p "Enter a number 1,10,100,1000 inclusive > " character
+if [ "$character" = "1" ];
+then
+     echo " unity "
+elif [ "$character" = "10" ];
+then
+     echo " ten "
+elif [ "$character" = "100" ];
+then
+      echo " hundred "
+elif [ "$character" = "1000" ];
+then
+      echo "thousand "
+else
+      echo " You did not enter a number 1,10,100,1000. "
+fi
